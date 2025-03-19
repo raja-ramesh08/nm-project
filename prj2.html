@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Raja Ramesh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #84a6e9;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #941919;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header-content p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        nav ul li a:hover {
+            color: #84a6e9;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-content h2 {
+            margin-top: 0;
+            color: #941919;
+        }
+
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .profile-picture {
+                position: static;
+                margin-bottom: 1rem;
+            }
+
+            .header-content h1 {
+                font-size: 2rem;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="C:\Users\DELL\Downloads\28759.jpg" alt="Raja Ramesh's Profile Picture" class="profile-picture">
+            <h1>RAJA RAMESH</h1>
+            <p>Bachelor of Computer Application (B.C.A)</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificate">Certificate</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Hi, I'm Raja Ramesh, a Bachelor of Computer Application (B.C.A) student from Swami Dayananda College. I am passionate about problem-solving and enjoy working on projects that challenge my technical and creative skills. I strive to be a responsible and detail-oriented individual, always eager to learn and grow in the field of computer science.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p><strong>Swami Dayananda College</strong></p>
+            <p>Bachelor of Computer Application (B.C.A)</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>C Programming</li>
+                <li>MySQL Database</li>
+                <li>Canva</li>
+                <li>Power BI</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Simple Billing System:</strong> A console-based application developed using C programming to manage billing for small businesses.</li>
+                <li><strong>Portfolio Website:</strong> A personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills and projects.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="Certificate">
+        <div class="section-content">
+            <h2>Certificate</h2>
+            <ul>
+               <li><a href="C:\Users\DELL\Downloads\Completion Certificate _ SkillsBuild (7) (1).pdf" target="_blank" class="download-button">Certificate</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section id="resume">
+        <div class="section-content">
+            <h2>Resume</h2>
+            <p>Download my resume to learn more about my qualifications and experience.</p>
+            <a href="C:\Users\DELL\Downloads\Beige Dark Gray Minimalist Web Developer Resume (1) (1).pdf" target="_blank" class="download-button">Download Resume</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Raja Ramesh. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 60, // Adjusted for fixed header
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
